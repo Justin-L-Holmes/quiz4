@@ -41,8 +41,9 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid: 'top-row top-row top-row top-row top-row';
+    justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -64,7 +65,60 @@ nav ul li a {
 }
 
 /* Dropdown navigation*/
-
+.about-dropdown{
+    border: none;
+}
+.about-dropdown:hover .about-content{
+    display: grid;
+    grid: 'down-about'
+    'down-about'
+    'down-about'
+    'down-about';
+    text-align: center;
+}
+.about-content{
+    display: none;
+    z-index: 1;
+    color: var(--text-color);
+}
+.about-content a{
+    display: block;
+    text-align: center;
+}
+.about-button{
+    display: block;
+    color: var(--text-color);
+    background: transparent;
+    margin: 0;
+    border: none;
+}
+.portfolio-button{
+    display: block;
+    background: transparent;
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 0;
+    border: none;
+}
+.portfolio-dropdown{
+    border: none;
+}
+.portfolio-dropdown:hover .portfolio-content{
+    display: grid;
+    grid: 'down-port'
+    'down-port'
+    'down-port'
+    'down-port';
+}
+.portfolio-content{
+    display: none;
+    z-index: 1;
+    color: var(--text-color);
+}
+.portfolio-content a{
+    display: block;
+    text-align: center;
+}
 
 
 /* Hover effects */

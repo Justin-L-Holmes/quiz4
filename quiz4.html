@@ -17,25 +17,29 @@
             </label>
             <input type="checkbox" id="toggle">
             <ul class="nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a>
-                    <ul>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">Staff</a></li>
-                        <li><a href="#">Members</a></li>
-                        <li><a href="#">Executives</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Portfolio</a>
-                    <ul>
-                        <li><a href="#">Website</a></li>
-                        <li><a href="#">Graphic</a></li>
-                        <li><a href="#">JavaScript</a></li>
-                        <li><a href="#">PHP</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="top-row"><a href="#">Home</a></li>
+                <div class="about-dropdown">
+                    <li class="top-row"><button class="about-button"><a href="#">About</a></button>
+                        <ul class="about-content">
+                            <a href="#" class="down-about">About Me</a>
+                            <a href="#" class="down-about">Staff</a>
+                            <a href="#" class="down-about">Members</a>
+                            <a href="#" class="down-about">Executives</a>
+                        </ul>
+                    </li>
+                </div>
+                <div class="portfolio-dropdown">
+                    <li class="top-row"><button class="portfolio-button"><a href="#">Portfolio</a></button>
+                        <ul class="portfolio-content">
+                            <a href="#" class="down-port">Website</a>
+                            <a href="#" class="down-port">Graphic</a>
+                            <a href="#" class="down-port">JavaScript</a>
+                            <a href="#" class="down-port">PHP</a>
+                        </ul>
+                    </li>
+                </div>
+                <li class="top-row"><a href="#">Gallery</a></li>
+                <li class="top-row"><a href="#">Contact</a></li>
             </ul><!-- ul -->
         </nav><!-- nav -->
     </header><!-- header -->
