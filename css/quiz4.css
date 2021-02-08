@@ -194,9 +194,6 @@ nav.menu ul li a:hover:after {
         display: block !important;
         cursor: pointer;
     }
-    #toggle:checked+.about-dropdown:hover .about-content{
-        max-height: 300px;
-    }
     .nav a {
         display: block;
         margin: 0;
